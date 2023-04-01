@@ -1,6 +1,6 @@
 import Button from './Button';
-import { buttonData } from '../context/buttonData';
-import './Buttons.css';
+import { buttonData } from '../../../context/buttonData';
+import './index.css';
 
 const Buttons = ({ handler }) => {
   return (

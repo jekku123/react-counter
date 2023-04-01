@@ -1,4 +1,4 @@
-import './Count.css';
+import './index.css';
 
 const Count = ({ count, error }) => {
   return (
