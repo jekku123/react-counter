@@ -1,0 +1,25 @@
+.count {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 3em;
+  font-weight: bold;
+  margin: 30px;
+  background-color: #139eca;
+}
+
+.even {
+  background-color: #e2510e;
+}
+
+.odd {
+  background-color: rgb(13, 217, 47);
+}
+
+.broken {
+  background-color: red;
+}
