@@ -4,7 +4,7 @@ const Count = ({ count, error }) => {
   return (
     <div
       className={
-        (error && `count broken`) ||
+        (error && `count error`) ||
         (count === 0 && `count`) ||
         (count % 2 === 0 ? 'count even' : 'count odd')
       }
