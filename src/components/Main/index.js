@@ -14,7 +14,9 @@ class Main extends Component {
     if (operation === 0) {
       this.setState({ count: 0 });
     } else if (this.state.count + operation >= 0) {
-      this.setState({ count: this.state.count + operation });
+      this.setState((state) => {
+        return { count: state.count + operation };
+      });
     } else {
       this.setState({ error: true });
       setTimeout(() => {

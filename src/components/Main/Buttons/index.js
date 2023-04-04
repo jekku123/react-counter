@@ -7,7 +7,7 @@ const Buttons = ({ handler }) => {
     <div className='buttons'>
       {buttonData.map((button) => (
         <Button
-          key={button.text}
+          key={button.id}
           handler={handler}
           text={button.text}
           value={button.value}
